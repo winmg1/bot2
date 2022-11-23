@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd /root
+curl https://rclone.org/install.sh | bash
 pip install rclone
 mkdir /root/.config
 mkdir /root/.config/rclone
@@ -11,8 +12,6 @@ cd /root/bot2
 cp rclone.conf "/root/.config/rclone/"
 unzip gclone.zip
 unzip AutoRcloneSync.zip
-chmod +x gclone
-echo "/root/bot2/./gclone" > $PREFIX/bin/rclone && chmod +x $PREFIX/bin/rclone
 cd /root/bot2/AutoRcloneSync
 pwd
 ls
