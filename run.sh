@@ -9,10 +9,11 @@ pwd
 curl -o rclone.conf https://www.dropbox.com/s/7udiiw6y1w8hks2/rclone.conf
 pwd
 ls
+cat rclone.conf
 cd /root
 curl -o AutoRcloneSync.zip https://www.dropbox.com/s/hm5an8z5fois7zu/AutoRcloneSync.zip
 pwd
-unzip "AutoRcloneSync.zip"
+unzip *.zip
 cd /root/AutoRcloneSync
 pwd
 ls
