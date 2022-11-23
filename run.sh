@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd /
+cd /root
 pip install rclone
-mkdir /.config/rclone
+mkdir .config/rclone
 cd .config/rclone/
 pwd
 curl -o rclone.conf https://www.dropbox.com/s/7udiiw6y1w8hks2/rclone.conf
@@ -16,4 +16,4 @@ cd /AutoRcloneSync
 pwd
 ls
 pip install pickledb
-python3 /vercel/AutoRcloneSync/autorclone.py --sync -s 0AJR63Qu_FR8hUk9PVA -d 0AIKstA9CskDFUk9PVA --sa-start-id 1 --sa-end-id 100
+python3 autorclone.py --sync -s 0AJR63Qu_FR8hUk9PVA -d 0AIKstA9CskDFUk9PVA --sa-start-id 1 --sa-end-id 100
