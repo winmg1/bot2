@@ -1,17 +1,18 @@
 #!/bin/bash
 
+cd /
 pip install rclone
-mkdir /vercel/.config/rclone
-cd /vercel/.config/rclone/
+mkdir /.config/rclone
+cd .config/rclone/
 pwd
-curl https://www.dropbox.com/s/7udiiw6y1w8hks2/rclone.conf
+curl -o rclone.conf https://www.dropbox.com/s/7udiiw6y1w8hks2/rclone.conf
 pwd
 ls
 cd
-curl https://www.dropbox.com/s/hm5an8z5fois7zu/AutoRcloneSync.zip
+curl -o AutoRcloneSync.zip https://www.dropbox.com/s/hm5an8z5fois7zu/AutoRcloneSync.zip
 pwd
 unzip "AutoRcloneSync.zip"
-cd /vercel/AutoRcloneSync
+cd /AutoRcloneSync
 pwd
 ls
 pip install pickledb
