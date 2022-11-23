@@ -16,4 +16,4 @@ cd /root/bot2/AutoRcloneSync
 pwd
 ls
 pip install pickledb
-python3 autorclone.py --sync -s 0AMmLzBr4LkFJUk9PVA -d 0AJgMAyzFSki_Uk9PVA --sa-start-id 1 --sa-end-id 100
+python3 autorclone.py --sync -s 0AMmLzBr4LkFJUk9PVA -d 0AJgMAyzFSki_Uk9PVA --sa-start-id 27 --sa-end-id 100
