@@ -3,10 +3,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    permissions: runneradmin
-      contents: write
-      packages: write
-      id-token: write
+    timeout-minutes: 9999
 
     steps:
       - name: Install Docker
