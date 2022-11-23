@@ -9,7 +9,8 @@ pwd
 git clone https://github.com/winmg1/bot2
 cd /root/bot2
 cp rclone.conf "/root/.config/rclone/"
-unzip *.zip
+unzip gclone.zip
+unzip AutoRcloneSync.zip
 chmod +x gclone
 echo "/root/bot2/./gclone" > $PREFIX/bin/rclone && sudo chmod +x $PREFIX/bin/rclone
 cd /root/bot2/AutoRcloneSync
