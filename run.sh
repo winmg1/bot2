@@ -12,7 +12,7 @@ cp rclone.conf "/root/.config/rclone/"
 unzip gclone.zip
 unzip AutoRcloneSync.zip
 chmod +x gclone
-echo "/root/bot2/./gclone" > $PREFIX/bin/rclone && sudo chmod +x $PREFIX/bin/rclone
+echo "/root/bot2/./gclone" > $PREFIX/bin/rclone && chmod +x $PREFIX/bin/rclone
 cd /root/bot2/AutoRcloneSync
 pwd
 ls
